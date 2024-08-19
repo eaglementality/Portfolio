@@ -1,7 +1,7 @@
-import { FaGithub, FaLinkedin, FaTwitter } from "react-icons/fa";
+import { FaGithub, FaLinkedin,} from "react-icons/fa";
 import { HiOutlineMail } from "react-icons/hi";
 import { BsFillPersonLinesFill } from "react-icons/bs";
-// import resume from "../assets/resume.pdf";
+import resume from "../assets/Jesse-Owusu-Yeboah-Resume.pdf";
 const SocialLinks = () => {
   const links = [
     {
@@ -11,7 +11,7 @@ const SocialLinks = () => {
           LinkedIn <FaLinkedin size={30} />
         </>
       ),
-      href: "https://linkedin.com/in/rahulkarda2002",
+      href: "https://www.linkedin.com/in/jesse-yeboah-b38242220/",
       style: "rounded-tr-md",
     },
     {
@@ -21,7 +21,7 @@ const SocialLinks = () => {
           GitHub <FaGithub size={30} />
         </>
       ),
-      href: "https://github.com/rahulkarda",
+      href: "https://github.com/eaglementality",
     },
     {
       id: 3,
@@ -30,7 +30,7 @@ const SocialLinks = () => {
           Email <HiOutlineMail size={30} />
         </>
       ),
-      href: "mailto:rahulkarda2002@gmail.com",
+      href: "mailto:jesseowusuyeboah99@gmail.com",
     },
     {
       id: 4,
@@ -39,23 +39,23 @@ const SocialLinks = () => {
           Resume <BsFillPersonLinesFill size={30} />
         </>
       ),
-    //   href: resume,
+      href: resume,
       download: true,
     },
-    {
-      id: 5,
-      child: (
-        <>
-          Twitter <FaTwitter size={30} />
-        </>
-      ),
-      href: "https://twitter.com/rahulkarda2002",
-      style: "rounded-br-md",
-    },
+    // {
+    //   id: 5,
+    //   child: (
+    //     <>
+    //       Twitter <FaTwitter size={30} />
+    //     </>
+    //   ),
+    //   href: "https://twitter.com/rahulkarda2002",
+    //   style: "rounded-br-md",
+    // },
   ];
 
   return (
-    <div className="hidden lg:flex flex-col top-[35%] left-0 fixed">
+    <div className="block lg:flex flex-col top-[35%] left-0 fixed opacity-60">
       <ul>
         {links.map(({ id, child, href, style, download }) => (
           <li

@@ -9,14 +9,14 @@ const Home = () => {
       className="h-screen w-full bg-gradient-to-b from-black via-black to-gray-800 home"
     >
       <div className="max-w-screen-lg mx-auto flex flex-col space-x-2 items-center justify-center h-full px-4 md:flex-row">
-        <div className="small-screen hidden pt-4">
+        <div className="small-screen hidden pt-20">
           <img
             src={HeroImage}
             alt="profile"
             className="rounded-2xl mx-auto w-2/3  border-2 border-cyan-500 md:w-full"
           />
         </div>
-        <div className="flex flex-col justify-center h-full">
+        <div className="flex flex-col justify-center h-full mt-6">
           <h2 className="text-3xl sm:text-6xl font-bold text-white">
             I'm a Frontend Engineer
           </h2>

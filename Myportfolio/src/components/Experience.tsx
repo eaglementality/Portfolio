@@ -9,6 +9,7 @@ import node from "../assets/node.png";
 import express from "../assets/express.png";
 import mongodb from "../assets/mongodb.png";
 import redux from "../assets/redux.png";
+import python from "../assets/python_5968350.png";
 const Experience = () => {
   const techs = [
     {
@@ -77,6 +78,12 @@ const Experience = () => {
       title: "Redux",
       style: "shadow-purple-500",
     },
+    {
+      id: 12,
+      src: python,
+      title: "Python",
+      style: "shadow-blue-500",
+    },
   ];
 
   return (
@@ -84,8 +91,8 @@ const Experience = () => {
       id="experience"
       className="bg-gradient-to-b from-gray-800 to-black w-full h-screen experience"
     >
-      <div className="max-w-screen-lg mx-auto p-4 flex flex-col justify-center w-full h-full text-white">
-        <div>
+      <div className="max-w-screen-lg mx-auto p-4 flex flex-col justify-center w-full h-full text-white ">
+        <div className="mt-20 md:mt-4">
           <p className="text-4xl font-bold border-b-4 border-gray-500 p-2 inline">
             Experience
           </p>
