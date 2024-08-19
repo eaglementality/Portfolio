@@ -16,7 +16,7 @@ const Home = () => {
             className="rounded-2xl mx-auto w-2/3  border-2 border-cyan-500 md:w-full"
           />
         </div>
-        <div className="flex flex-col justify-center h-full">
+        <div className="flex flex-col justify-center h-full mt-6">
           <h2 className="text-3xl sm:text-6xl font-bold text-white">
             I'm a Frontend Engineer
           </h2>

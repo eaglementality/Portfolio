@@ -9,6 +9,7 @@ import node from "../assets/node.png";
 import express from "../assets/express.png";
 import mongodb from "../assets/mongodb.png";
 import redux from "../assets/redux.png";
+import python from "../assets/python_5968350.png";
 const Experience = () => {
   const techs = [
     {
@@ -76,6 +77,12 @@ const Experience = () => {
       src: redux,
       title: "Redux",
       style: "shadow-purple-500",
+    },
+    {
+      id: 12,
+      src: python,
+      title: "Python",
+      style: "shadow-blue-500",
     },
   ];
 
