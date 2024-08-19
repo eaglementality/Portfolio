@@ -9,16 +9,16 @@ const Home = () => {
       className="h-screen w-full bg-gradient-to-b from-black via-black to-gray-800 home"
     >
       <div className="max-w-screen-lg mx-auto flex flex-col space-x-2 items-center justify-center h-full px-4 md:flex-row">
-        <div className="small-screen hidden">
+        <div className="small-screen hidden pt-4">
           <img
             src={HeroImage}
             alt="profile"
-            className="rounded-2xl mx-auto w-2/3 mt-2 border border-white md:w-full"
+            className="rounded-2xl mx-auto w-2/3  border-2 border-cyan-500 md:w-full"
           />
         </div>
         <div className="flex flex-col justify-center h-full">
           <h2 className="text-3xl sm:text-6xl font-bold text-white">
-            I'm a Software Engineer(FrontEnd)
+            I'm a Frontend Engineer
           </h2>
           <p className="text-gray-500 py-4 max-w-md">
             I’m a frontend software engineer with 3 years of experience,
@@ -41,11 +41,11 @@ const Home = () => {
             </Link>
           </div>
         </div>
-        <div className="big-screen">
+        <div className="big-screen ">
           <img
             src={HeroImage}
             alt="profile"
-            className="rounded-2xl mx-auto w-2/3 md:w-full"
+            className="rounded-2xl mx-auto w-2/3 border-2 border-cyan-500 md:w-full"
           />
         </div>
       </div>
