@@ -1,4 +1,3 @@
-import React from "react";
 // import api from "../assets/portfolio/api.jpg";
 // import apod from "../assets/portfolio/apod.jpg";
 // import iptracker from "../assets/portfolio/iptracker.jpg";
@@ -10,39 +9,39 @@ const Portfolio = () => {
   const portfolios = [
     {
       id: 1,
-    //   src: api,
-      link: 'https://crypto-info-api.cyclic.app/',
-      repo: 'https://github.com/rahulkarda/crypto-info-api'
+      //   src: api,
+      link: "https://crypto-info-api.cyclic.app/",
+      repo: "https://github.com/rahulkarda/crypto-info-api",
     },
     {
       id: 2,
-    //   src: webpostman,
-      link: 'https://webpostman.netlify.app/',
-      repo: 'https://github.com/rahulkarda/Web-Postman'
+      //   src: webpostman,
+      link: "https://webpostman.netlify.app/",
+      repo: "https://github.com/rahulkarda/Web-Postman",
     },
     {
       id: 3,
-    //   src: apod,
-      link: 'https://apodbyrahul.netlify.app/',
-      repo: 'https://github.com/rahulkarda/NASA-APOD'
+      //   src: apod,
+      link: "https://apodbyrahul.netlify.app/",
+      repo: "https://github.com/rahulkarda/NASA-APOD",
     },
     {
       id: 4,
-    //   src: waveportal,
-      link: 'https://waveatrahul.netlify.app/',
-      repo: 'https://github.com/rahulkarda/Wave-Portal'
+      //   src: waveportal,
+      link: "https://waveatrahul.netlify.app/",
+      repo: "https://github.com/rahulkarda/Wave-Portal",
     },
     {
       id: 5,
-    //   src: nftportal,
-      link: 'https://nftportalbyrahul.netlify.app/',
-      repo: 'https://github.com/rahulkarda/NFT-Portal'
+      //   src: nftportal,
+      link: "https://nftportalbyrahul.netlify.app/",
+      repo: "https://github.com/rahulkarda/NFT-Portal",
     },
     {
       id: 6,
-    //   src: iptracker,
-      link: 'https://trackmyip.netlify.app/',
-      repo: 'https://github.com/rahulkarda/IP-Address-Tracker'
+      //   src: iptracker,
+      link: "https://trackmyip.netlify.app/",
+      repo: "https://github.com/rahulkarda/IP-Address-Tracker",
     },
   ];
 
@@ -60,7 +59,7 @@ const Portfolio = () => {
         </div>
 
         <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-8 px-12 sm:px-0">
-          {portfolios.map(({ id,link, repo }) => (
+          {portfolios.map(({ id, link, repo }) => (
             <div key={id} className="shadow-md shadow-gray-600 rounded-lg">
               <img
                 // src={src}
@@ -68,10 +67,16 @@ const Portfolio = () => {
                 className="rounded-md duration-200 hover:scale-105"
               />
               <div className="flex items-center justify-center">
-                <button className="w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105" onClick={ () => window.open(link, '_blank')}>
+                <button
+                  className="w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105"
+                  onClick={() => window.open(link, "_blank")}
+                >
                   Demo
                 </button>
-                <button className="w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105" onClick={ () => window.open(repo, '_blank')}>
+                <button
+                  className="w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105"
+                  onClick={() => window.open(repo, "_blank")}
+                >
                   GitHub
                 </button>
               </div>
