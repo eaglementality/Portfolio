@@ -1,4 +1,4 @@
-import HeroImage from "../assets/short-removebg-preview.png";
+// import HeroImage from "../assets/short-removebg-preview.png";
 import { MdOutlineKeyboardArrowRight } from "react-icons/md";
 import { Link } from "react-scroll";
 
@@ -11,7 +11,7 @@ const Home = () => {
       <div className="max-w-screen-lg mx-auto flex flex-col space-x-2 items-center justify-center h-full px-4 md:flex-row">
         <div className="small-screen hidden pt-20">
           <img
-            src={HeroImage}
+            src={'https://www.pinterest.com/pin/678565868894948488/'}
             alt="profile"
             className="rounded-2xl mx-auto w-2/3  border-2 border-cyan-500 md:w-full"
           />
